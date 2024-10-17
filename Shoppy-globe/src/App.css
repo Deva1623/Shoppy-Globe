@@ -1,0 +1,48 @@
+.loader {
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #3f34db; 
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    animation: spin 2s linear infinite;  
+  }
+  
+  @keyframes spin {
+    0% { 
+        transform: rotate(0deg);
+        border-top: 16px solid #34dba9; 
+    }
+    50%{
+      border-top: 16px solid #db34db; 
+    }
+    100% { 
+        transform: rotate(360deg);
+        border-top: 16px solid #7434db; 
+    }
+  }
+
+  .custom-shadow {
+    box-shadow: 2px 2px 4px 4px gray;
+  }
+
+  .custom-logo{
+    animation: size 4s infinite ease-in-out;
+  }
+
+  @keyframes size{
+
+   25%{
+     transform: scale(1.4);
+   }
+   50%{
+     transform: scale(1.2);
+     
+   }
+   100%{
+     transform: scale(1);
+   }
+  }
+
+
+
+  
